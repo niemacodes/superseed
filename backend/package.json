@@ -1,0 +1,18 @@
+{
+  "name": "eth-bogota-hackathon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "aaveV3.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@superfluid-finance/sdk-core": "^0.5.6",
+    "axios": "^1.1.2",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.1",
+    "web3": "^1.8.0"
+  }
+}
