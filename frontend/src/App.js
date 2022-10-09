@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import './components/Navbar'
 import Landing from './components/Landing';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Invest from './components/Invest';
 import GrowthJourney from './components/GrowthJourney';
 import Donate from './components/Donate';

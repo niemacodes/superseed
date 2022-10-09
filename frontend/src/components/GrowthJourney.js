@@ -5,9 +5,11 @@ const GrowthJourney = () => {
     return(
         <>
         <Navbar/>
-        <p>GROWTHJOURNEY</p>
+        
+        
         </>
     );
 }
 
 export default GrowthJourney; 
+

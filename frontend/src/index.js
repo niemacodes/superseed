@@ -4,12 +4,23 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
+import { Web3Modal } from "@web3modal/react";
+
+const config = {
+  projectId: "a1542d41ccf67569e128e6206c150553",
+  theme: "light",
+  accentColor: "green",
+  ethereum: {
+    appName: "web3Modal",
+  },
+};
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
      <App />
+     <Web3Modal config={config} />
     </BrowserRouter>
   </React.StrictMode>
 );
